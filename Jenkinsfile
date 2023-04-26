@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/DeveloperWakeling/mocha_testing'
+                git 'https://github.com/alchemist006/jenkins'
             }
         }
         stage('Install Dependencies'){
